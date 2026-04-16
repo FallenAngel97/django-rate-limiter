@@ -2,7 +2,7 @@
 - Tested on: Python 3.11.5
 - Django 5.2.12
 
-![High Level Design principle of library](django-api-rate-limiter_principle.png)
+![High Level Design principle of library](django-api-rest-limiter_principle.png)
 
 Start by installing the package:
 ```bash 
