@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "django-rate-limiter"
+name = "django-api-rate-limiter"
 dependencies=[
 	"Django>=5",
 	"django-redis>=6"
