@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-rate-limiter"
+dependencies=[
+	"Django>=5",
+	"django-redis>=6"
+]
+version = "0.0.1"
+authors = [
+  { name="Oleksii Demennikov" },
+]
+description = "Django Rate limiter for Admin panel, with synchronization towards Redis. Currently supports OpenResty as a rate limit server"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/FallenAngel97/django-rate-limiter"
+Issues = "https://github.com/FallenAngel97/django-rate-limiter/issues"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "tests",
+  "requirements.txt",
+  "nginx.conf",
+  "manage.py",
+  "api_limiting",
+  "nginx_lua",
+  "docker-compose.yml"
+]
