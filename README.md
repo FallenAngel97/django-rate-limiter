@@ -17,3 +17,5 @@ GET requests going to /api/limited*
 
 If your project is using django-oauth-toolkit, you can specify per-user limits, 
 which are linked to the oauth tokens issued to users 
+
+Please install OpenResty if you would like to use the Lua files from "nginx_lua" folder
