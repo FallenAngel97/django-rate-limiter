@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AdminLimiterConfig(AppConfig):
+class DjangoApiRateLimiterConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "admin_limiter"
+    name = "django_api_rate_limiter"

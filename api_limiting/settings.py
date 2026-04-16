@@ -73,7 +73,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'oauth2_provider',
     'rest_framework_simplejwt.token_blacklist',
-    'admin_limiter'
+    'django_api_rate_limiter'
 ]
 
 MIDDLEWARE = [

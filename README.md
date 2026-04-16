@@ -2,6 +2,11 @@
 - Tested on: Python 3.11.5
 - Django 5.2.12
 
+Start by installing the package:
+```bash 
+pip install django-api-rate-limiter
+```
+
 Navigate to your /admin page and visit section "Admin_Limiter"->"Api limiters".
 
 There you can set up your own limits specified in "values per second". 
