@@ -33,10 +33,11 @@ Navigate to your /admin page and visit section "Admin_Limiter"->"Api limiters".
 
 There you can set up your own limits specified in "values per second". 
 For example, you can fill up as:
-
-Speed Value: 10
-Method: Get 
-Url: /api/limited 
+|||
+|--|--|
+|Speed Value| 10|
+|Method|Get| 
+|Url| /api/limited |
 
 This translates to:
 *For every anonymous & logged in user apply the limit of 10 requests per second for 
