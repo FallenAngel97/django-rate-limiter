@@ -47,3 +47,5 @@ If your project is using django-oauth-toolkit, you can specify per-user limits,
 which are linked to the oauth tokens issued to users 
 
 Please install OpenResty if you would like to use the Lua files from "nginx_lua" folder
+
+You can find example & detailed explanation at https://decodeapps.pp.ua/blog/post/how-to-build-dynamic-nginx-rate-limiting-with-django-admin-redis
