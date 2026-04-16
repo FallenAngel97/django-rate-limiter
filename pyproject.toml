@@ -8,7 +8,7 @@ dependencies=[
 	"Django>=5",
 	"django-redis>=6"
 ]
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Oleksii Demennikov" },
 ]
@@ -34,5 +34,6 @@ exclude = [
   "manage.py",
   "api_limiting",
   "nginx_lua",
-  "docker-compose.yml"
+  "docker-compose.yml",
+  "principle_of_work.drawio"
 ]
