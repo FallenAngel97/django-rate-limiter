@@ -7,6 +7,26 @@ Start by installing the package:
 pip install django-api-rate-limiter
 ```
 
+Then add in your settings.py 
+```python 
+INSTALLED_APPS = [
+    # rest of the apps..
+    'django_api_rate_limiter'
+]
+
+# you will need to configure the default cache to point to Redis 
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+```
+
 Navigate to your /admin page and visit section "Admin_Limiter"->"Api limiters".
 
 There you can set up your own limits specified in "values per second". 
